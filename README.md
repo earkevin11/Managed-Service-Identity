@@ -39,7 +39,9 @@
 
 
 # Difference between Application Object vs Service Principal vs Managed Identity
-- Application Object - application links to application object where the app can now get access to Azure resources
-- Managed Identity - is used for Azure resources only such as Azure VM. The identity is managed by Azure.
+- Application Object - application links to application object and that is how the app can get access to Azure resources
+- Application object - an application uses appliaction object to access Azure resources
+- Managed Identity - is used for <str> Azure resources only </str> such as Azure VM. The identity is managed by Azure.
 - Service principal - the service principal is created when an managed identity/app object is created.
 - Service principal is assigned access to Azure resources for the managed identity and app object.
+- The service principal is what is given access to resources on the Azure platform.
