@@ -5,6 +5,24 @@
 - Managed Identity can be enabled in the Azure VM where an identity will be created in Azure AD.
 - Then you can give access to the Managed Identity to access Azure Resources
 
+# What problem does a Managed Service identity solve? 
+- MSI eliminates the need for developers to manage credentials.
+- Developers have a hard time managing credentials and MSI automates it.
+
+
+# What are the two types of managed service identitiy?
+- System-managed identity
+- User-assigned managed identitiy
+
+# Difference between system-managed identities and user-assigned managed identities
+- System-managed identities have a 1:1 relationship with Azure resources.
+- It is created along with the Azure resource.
+
+$ User-assigned managed identities
+- User-assigned managed identities are independent of the Azure resources.
+- Can stand alone and be given to multiple resources.
+- It is not tied to Azure resources.
+
 
 # How to create the managed identity?
 - Key Vault > Identity > Enable Managed Identity
