@@ -2,8 +2,8 @@
 
 # What is a Managed Identity? #240
 - Application object can be used as an identity for applications to access Azure resources.
-- Managed Identity can be enabled in the Azure VM where an identity will be created in Azure AD.
-- Then you can give access to the Managed Identity to access Azure Resources
+- Managed Identity can be created in the Azure VM.
+- Then you can give access via RBAC to the Managed Identity to access Azure Resources
 
 # What problem does a Managed Service identity solve? 
 - MSI eliminates the need for developers to manage credentials.
