@@ -8,7 +8,7 @@
 # What problem does a Managed Service identity solve? 
 - MSI eliminates the need for developers to manage credentials.
 - Developers have a hard time managing credentials and MSI automates it.
-
+- Oftentimes we will see a managed identity used by the application to obtain an access token or a refresh token
 
 # What are the two types of managed service identitiy?
 - System-managed identity
