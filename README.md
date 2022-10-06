@@ -30,7 +30,7 @@
 
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/104326475/194352603-2d3e545a-8712-410e-be41-78caf6ba2761.png">" height="55%" width="55%" alt="Privileged Identity Management"/>
+<img src="https://user-images.githubusercontent.com/104326475/194352603-2d3e545a-8712-410e-be41-78caf6ba2761.png" height="85%" width="85%" alt="Privileged Identity Management"/>
 
 <p/>
 
