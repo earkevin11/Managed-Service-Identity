@@ -24,6 +24,16 @@
 - Can stand alone and be given to multiple resources.
 - It is not tied to Azure resources. Delete managed identity and resource will not be deleted.
 
+# Excellent metaphor/diagram describing Managed Identities
+- System-Managed Identities
+- User-Assigned Managed Identities
+
+<p align="center">
+  
+<img src="<img width="960" alt="managed identities" src="https://user-images.githubusercontent.com/104326475/194352123-181bc20b-8d4f-4f0e-8c26-c0458012757f.png">" height="100%" width="100%" alt="key vault"/>
+
+<p/>
+
 
 # How to create the managed identity?
 - Key Vault > Identity > Enable Managed Identity
