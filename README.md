@@ -30,7 +30,7 @@
 
 <p align="center">
   
-<img src="<img width="960" alt="managed identities" src="https://user-images.githubusercontent.com/104326475/194352123-181bc20b-8d4f-4f0e-8c26-c0458012757f.png">" height="100%" width="100%" alt="key vault"/>
+"<img width="960" alt="managed identities" src="https://user-images.githubusercontent.com/104326475/194352123-181bc20b-8d4f-4f0e-8c26-c0458012757f.png">" height="100%" width="100%" alt="key vault"/>
 
 <p/>
 
