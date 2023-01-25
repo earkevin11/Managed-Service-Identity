@@ -16,13 +16,13 @@
 
 # System-managed identities 
 - System-managed identities have a 1:1 relationship with Azure resources.
-- It is created along with the Azure resource.
+- It is created along with the Azure resource (You must enable the system-managed identity when creating the Azure resource)
 - If you delete the managed identity, the Azure resource is also deleted.
 
 # User-assigned managed identities
 - User-assigned managed identities are independent of the Azure resources.
 - Can stand alone and be given to multiple resources.
-- It is not tied to Azure resources. Delete managed identity and resource will not be deleted.
+- It is not tied to Azure resources. If users delete the user-assigned managed identity, the Azure resource will not be deleted.
 
 # Excellent metaphor/diagram describing Managed Identities
 - System-Managed Identities
