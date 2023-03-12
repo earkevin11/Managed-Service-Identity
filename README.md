@@ -56,9 +56,9 @@
 - 4. Using the Microsoft Graph API or PowerShell to create a new application
 - 5. Many others including various developer experiences in Azure and in API explorer experiences across developer centers
 - *Remember* The Application itself links to the Application Object and that is how the app can get access to Azure resources
-- Managed Identity - is used for <str> Azure resources only </str> such as Azure VM. The System Managied Identity/User-Assigned Managed Identity is managed by Azure.
+- Managed Identity - is used for <str> Azure resources only </str> such as Azure VM. The System Managed Identity/User-Assigned Managed Identity is managed by Azure.
 
 # IMPORTANT***
-- Service Principal is created internally when an Managed Identity OR when Application Oject is created.
-- Service Principal is assigned access to Azure Resources for the Managed Identity and Application Object
+- Service Principals are created internally when an Managed Identity OR when Application Oject is created.
+- We give Service Principals, which are tied to the Managed Identity or Application Object, access to Azure Resources.
 - To repeat, The Service Principal is what is given access to resources on the Azure platform.
